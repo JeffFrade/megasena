@@ -14,8 +14,6 @@ class Number
             if (!in_array($number, $numbers)) {
                 $numbers[] = $number;
             }
-
-            $count += 1;
         }
 
         return $numbers;
